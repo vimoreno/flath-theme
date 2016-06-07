@@ -1,0 +1,164 @@
+
+
+
+body {
+
+	background: white;
+
+}
+
+
+.DivGreen {
+	background-color: #019C49;
+	padding: 2% 0%;	
+}
+.MarginGreen {
+	margin-top: 50px;
+}
+.Text-White {
+	color: white;
+}
+.MenuDerecha {
+	
+	float: right;
+	text-decoration: none;
+	padding: 3%;
+	margin-top: 30px;
+}
+.MenuDerecha:hover,
+.MenuDerecha:focus {
+	color: #019C49;
+	background-color: #5B555C;
+	text-decoration: none;
+}
+
+
+h1, h2, .abt {
+
+	color: white;
+	
+}
+
+
+.submenu a span {
+
+	float: right;	
+	display: inline-block;
+	position: relative;
+}
+
+.bg-grey {
+
+	padding: 80px;
+	background: #F2F2F2;
+}
+
+.doc {
+	background: silver;
+}
+
+.doc h3, p {
+
+	text-align: center;
+}
+
+.team img {
+
+	border-radius: 200px;
+	border: 8px solid white;
+	margin: 20px;
+}
+.team p {
+
+	margin: 0px 20px 20px 20px;
+}
+.icons i {
+
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+.back h4 {
+
+	color: white;
+}
+.back {
+
+	background: #0B3861;
+}
+
+.back p, li a{
+
+	color: white;
+	text-align: left;
+	font-size: 9px;
+	text-decoration-style: none;
+	list-style-type: none;
+}
+
+.pics p {
+	display: inline-block;
+	font-size: 8px;
+
+
+
+}
+
+.pics img {
+
+	display: block;
+}
+
+
+footer {
+
+	background-color: #0B4C5F;
+	color: white;
+	padding: 20px;
+}
+
+#pull-left {
+
+	display: inline-block;
+
+}
+
+.abt {
+
+	background: #086A87;
+}
+
+
+
+@media (max-width: 767px) {
+	.DivBack1 {
+		width: 100%;
+		height: 700px;
+}
+	.BackIndex1 {
+		background-size: auto;
+		padding-top: 40%;
+	}
+	.heightImg {
+		height: 140px;
+	}
+	.MenuDerecha {
+		padding: 2%;
+	}
+}
+@media (max-width: 992) {
+	.DivBack1 {
+		width: 100%;
+		height: 900px;
+	}
+	.BackIndex1 {
+		background-size: auto;
+		padding-top: 40%;
+	}
+	.heightImg {
+		height: 200px;
+	}
+	.MenuDerecha {
+		padding: 2%;
+	}
+}

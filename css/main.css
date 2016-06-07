@@ -1,0 +1,630 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*=====================Parte de Lupita Navegador===============*/
+/* Logo style*/
+.logo{
+  width: 170px;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
+/*navbar style*/
+.navbar{
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.navbar-collapse {
+	overflow: hidden;
+}
+
+.navbar-inverse {
+	background: #314C5F;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #213846;
+	border-radius: 5px;
+	padding-bottom: -5px;	
+}
+
+.navbar-inverse .navbar-nav li{
+	margin-right:-20px;
+	margin-left: 17px; 
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+  color: #ffffff;
+  background-color: #213846;
+}
+
+/* Se agrego esta clase en todas las secciones*/
+.pd-top15{
+	margin-top: 10px;
+}
+
+/* Background green*/
+.Text-White {
+	color: white;
+}
+.Mbottom {
+	margin-bottom: 80px;
+}
+/*Se debe agregar margin top de 86px a todas las secciones*/
+/*....................................Aportacion.De.Nello.............................*/
+/*--------------------Panel.Uno--------------------*/
+i:hover,
+i:focus {
+	color: #DEDB32 !important;
+  	text-decoration: none;
+  	background-color: #019C49 !important;
+}
+.Text-White {
+	color: white;
+}
+.DivBack1 {
+	width: 100%;
+	height: 523px;
+}
+.BackIndex1 {
+	background-image: url(../images/slider/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	padding-top: 15%;
+}
+.pager {
+	background-color: #B40404;
+	width: 40px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	border: 1px solid #450E02;
+}
+.previous {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.next {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: -4px !important;
+}
+.DivGreen {
+	background-color: #019C49;
+	padding: 2% 0%;	
+}
+.MarginGreen {
+	margin-top: 70px;
+}
+.DivIcoP2 {
+	float: left;
+	width: 16%;
+	margin-top: 22px !important;
+}
+.IcoP2 {
+	font-size: 50px;
+	color: #003619;
+}
+.TextP2 {
+	float: left;
+	width: 84%;
+}
+/*Panel3*/
+.BackGray {
+	background-color: #D8D8D8;
+	padding: 5% 0%;
+}
+.ImgPanel3 {
+	width: 100%;
+}
+.BackWhite {
+	background-color: white;
+	padding: 3%;
+}
+/*Panel4*/
+.BackRed {
+	background-color: #B40404;
+	padding: 5% 0%;
+}
+/*.....................Arreglo.De.Hoja.De.Portafolio.HTML................*/
+
+.MenuDerecha {
+	float: right;
+	text-decoration: none;
+	padding: 5%;
+	margin-top: 30px;
+}
+.MenuDerecha:hover,
+.MenuDerecha:focus {
+	color: #019C49;
+	background-color: #5B555C;
+	text-decoration: none;
+}
+/*==========Seccion bloger lupita*/
+/*Color body*/
+
+body{
+	background: #EEEEEE;
+	height: 70px;
+}
+
+/*Section bloger*/
+.showback {
+    background: #ffffff;
+    margin-bottom: -25px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+}
+
+
+.mgbtn25{
+	margin-bottom: 25px;
+}
+
+.empresario{
+	width: 100%;
+	height: 295px;
+	border-top-right-radius: 5px;
+}
+
+<<<<<<< HEAD
+.junta{
+	width: 100%;
+	height: 295px;
+	border-radius: 5px;
+}
+
+=======
+>>>>>>> e2d3ebb9e4eb85b08c220ddb76ca5c60ab548d2d
+.sub-bloger{
+	font-weight:500;
+	color:#314C5F;
+}
+
+.person{
+	color: gray;
+	font-size: 16px;
+	padding-left: 15px;
+}
+
+.names{
+	color: gray;
+	font-size: 12px;
+}
+
+.pdleft15{
+	padding-left: 15px;
+}
+
+.pdleft10{
+	padding-left: 10px;
+}
+
+.mgbtn20{
+	margin-bottom: 20px;
+}
+
+.mgtop20{
+	margin-top: 20px;
+}
+
+
+.text-blog-1{
+	padding: 0px 15px;
+}
+
+.display{
+	display: inline-block;
+}
+
+.btn-group{
+	margin-bottom: 20px;
+}
+
+.pagination a{
+	border: white !important;
+	color: gray;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus{
+  color: #ffffff;
+  background-color: #213846;
+}
+
+.mgbootom-search{
+	margin-bottom: 30px;
+}
+/*Casilla Search*/
+.input-group {
+  margin-top: 50px;
+}
+
+.icon-search{
+	color: white;
+}
+/*Imagenes debajo del Search*/
+.photo-1{
+	border-radius: 5px;
+	height:135px;
+	width: 160px;
+	margin-top: 30px;
+}
+
+.mgright35{
+	margin-right: 35px;
+}
+/*Lista de viñetas*/
+
+.arrow> li > a:hover,
+.arrow > li > a:focus{
+  color:#981717;
+  text-decoration: none;
+}
+.arrow > li > a{
+
+	 color:#213846; 
+}
+
+div .arrow li{
+	list-style: none;
+}
+
+.arrow{
+	padding:0px;
+}
+
+.mgright100{
+	margin-right: 100px;
+}
+/*Para el margin de todos los botones*/
+.size{
+	margin-bottom: 3px;
+}
+
+/*Seccion Blogger-Item lo hizo Lupita*/
+
+.showback-blog-item {
+    background: #ffffff;
+    margin-bottom: -25px;
+    border-radius: 5px;
+    margin-top: 50px;
+      
+}
+
+.size-parrafo{
+	font-size: 20px;
+	color:#213846;
+	font-weight:200;
+}
+
+.text-blue{
+	color:#213846;
+}
+
+.div-blog{
+	margin-left: 15px;
+	width: 95%;
+	border-bottom: 1px solid gray;
+}
+
+.tags{
+	font-size: 14px;
+	padding-left: 3px;
+}
+
+.bground-gris{
+	background: #E6E6E6;
+	border-radius: 5px;
+	padding: 20px;
+	height: 130px;
+	margin: 20px 15px;
+}
+
+.name-avatar{
+	position: absolute;
+	display: inline-block;
+	margin-top: -13px;
+	margin-left: 10px;
+}
+
+.text-avatar{
+	padding-right: 20px;
+}
+
+.avatar-dos{
+	border-radius: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.bground-ancho{
+	width: 86,5%;
+	margin-left:85px;
+	margin-top:-45px; 
+}
+
+.text-avatar-2{
+	padding-left: -30px;
+	margin-right: 5px;
+}
+
+.fecha{
+	padding-left: 10px;
+	font-weight: 400;
+}
+
+.reply{
+	margin-left: 378px;
+}
+
+.reply > a:hover,
+.reply > a:focus{
+  color:#981717;
+  text-decoration: none;
+}
+
+.reply > a{
+	 color:#213846; 
+}
+
+/*===============Termina seccion bloger lupita=================*/
+
+
+.Mtop {
+	margin-top: 30px;
+}
+.heightImg {
+	height: 250px;
+}
+
+/*.....................Arreglo.De.Hoja.De.Services.HTML................*/
+.AIcop1 {
+	font-size: 50px;
+	color: #424242;
+}
+.IcoP1:hover,
+.IcoP1:focus {
+	color: #019C49!important;
+  	text-decoration: none;
+  	background-color: #D8D8D8!important;
+}
+´.BlockquoteGray {
+	background-color: #6E6E6E !important;
+}
+/*------------Medias-----------------*/
+@media (max-width: 767px) {
+	.DivBack1 {
+		width: 100%;
+		height: 700px;
+}
+	.BackIndex1 {
+		background-size: auto;
+		padding-top: 40%;
+	}
+	.heightImg {
+		height: 140px;
+	}
+	.MenuDerecha {
+		padding: 2%;
+	}
+}
+@media (max-width: 992) {
+	.DivBack1 {
+		width: 100%;
+		height: 900px;
+	}
+	.BackIndex1 {
+		background-size: auto;
+		padding-top: 40%;
+	}
+	.heightImg {
+		height: 200px;
+	}
+	.MenuDerecha {
+		padding: 2%;
+	}
+}
+/*.................Fin.De.Aportación.De.Nello................................*/
+/*VIAN*/
+* {
+
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body {
+
+	background: white;
+
+}
+
+
+
+header {
+	width: 100%;
+
+}
+
+header nav {
+
+	background:green;
+	z-index: 1000;
+	max-width: 1000px;
+	width: 95%;
+	margin: 20px auto;
+}
+
+header nav ul {
+
+	list-style:none;
+
+}
+header nav ul li {
+
+	display: inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+	background: red;
+
+}
+
+header nav ul li a {
+
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+
+}
+
+header nav ul li a span {
+	margin-right: 10px;
+
+
+}
+
+
+header nav ul li:hover .children {
+
+	display: block;
+
+}
+
+header nav ul li .children {
+
+	display: none;
+	background: orange;
+	position: absolute;
+	width: 150%;
+	z-index: 1000;
+}
+
+header nav ul li .children li {
+
+display:block;
+overflow: hidden;
+border-bottom: 1px solid rgba (255,255,255,.5)
+}
+
+header nav ul li .children li a {
+	display:block;
+}
+
+header nav ul li .children li a span {
+
+float: right;
+position: relative;
+top: 3px;
+margin-right:0;
+margin-left: 10px;
+	}
+
+header nav ul li .caret {
+
+	position: relative;
+	top: 3px;
+	margin-left: 10px;
+	margin-right:0px;
+}	
+
+@media screen and (max-width: 800px) {
+
+	body {
+		padding-top: 80px;
+	}
+	.menu_bar {
+		display: block;
+		width: 100%;
+		position: fixed;
+		top:0;
+		background: red;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration:none;
+	}
+
+	.menu_bar span {
+
+	float: right;
+
+	}
+
+	header nav {
+
+	width: 80%;
+	height: calc(100% - 80px);
+	position: fixed;
+	left: 0;
+	margin: 0;
+	overflow: scroll;
+
+	}
+
+	header nav ul li {
+	display: block;
+	border-bottom: 2px solid black;
+
+	}
+
+
+	header nav ul li a {
+	display: block;
+	}
+	
+
+	header nav ul li .children {
+
+	width:100%;
+	position: relative;
+
+
+	}
+
+
+	header nav ul li .children li a {
+	margin-left:20px;
+
+	}
+
+	header nav ul li .caret {
+	float: right;
+
+	}
+
+
+}
+/*FIN VIAN*/
